@@ -26,6 +26,7 @@ create type Journey as object(
 
 create index NombreEmpleado on emp(ename);
 
+
 create sequence DeptCount
     INCREMENT BY 1
     START WITH 10
@@ -34,3 +35,6 @@ create sequence DeptCount
 ;
 
 SELECT DeptCount.NEXTVAL FROM DUAL;
+
+
+
